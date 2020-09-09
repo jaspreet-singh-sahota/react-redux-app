@@ -3,12 +3,14 @@ import './App.css';
 import CakeContainer from './components/cakeContainer';
 import { Provider } from 'react-redux';
 import store from "./redux/store";
+import HooksCakeContainer from './components/hooksCakeContainer';
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
-      <CakeContainer/>
+        <HooksCakeContainer/>
+        <CakeContainer/>
       </div>
     </Provider>
   );
