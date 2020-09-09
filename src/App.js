@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import cakeContainer from './components/cakeContainer';
+import CakeContainer from './components/cakeContainer';
 
 function App() {
   return (
     <div className="App">
-     <cakeContainer/>
+     <CakeContainer/>
     </div>
   );
 }
